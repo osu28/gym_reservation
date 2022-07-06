@@ -14,3 +14,9 @@ This is a two-tier application, with a thick client running both a simple UI as 
 - The frontend will be done in TypeScript and using React.JS. 
 - The database is TBD.
 - User authentication will be done through Auth0.
+
+![Login Page](./src/images/login_screen1.png)
+
+## Personal Goals
+I am passionate about the gym and would like to reduce the amount of time I spend waiting for equipment.
+I decided to pursue this project to teach my friends the technologies and frameworks I'm learning at my current internship.
