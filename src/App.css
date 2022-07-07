@@ -44,8 +44,8 @@
 
 /* FROSTED GLASS */
 .container {
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-  border-radius: 30px;
+  box-shadow: 0 0 10rem 0 rgba(255, 255, 255, 0.945);
+  border-radius: 50px;
   background-color: #010135e0;
   /* background-color: rgba(255, 255, 255, 0.541); */
   backdrop-filter: blur(10px);
@@ -56,7 +56,7 @@
   /* justify-content: center; */
   /* padding-left: 10px; */
   /* left: 2%; */
-  width: 70%;
+  width: 50%;
   height:750px;
   /* top: 2%; */
 

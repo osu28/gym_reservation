@@ -1,4 +1,6 @@
 # Gym Reservation App 💪
+***Oscar Su, Amelia Reeves, Nathan Ma***
+
 Possible name: Pump Program
 
 The goal is to reduce/eliminate the time spent waiting on others to finish using a machine/rack/bench at a gym by allowing people to see which equipment are open in advance and book a set amount of time on the equipment.
