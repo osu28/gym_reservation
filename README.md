@@ -19,7 +19,14 @@ This is a two-tier application, with a thick client running both a simple UI as 
 - The database is TBD.
 - User authentication will be done through Auth0.
 
+## User Interface
+***Designed by Amelia Reeves***
+
+Login UI
 ![Login Page](./src/images/login_screen1.png)
+
+Split Select UI
+![Split Select](./src/images/split_select_screen1.png)
 
 ## Personal Goals
 I am passionate about the gym and would like to reduce the amount of time I spend waiting for equipment.
