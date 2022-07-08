@@ -16,6 +16,7 @@ The goal is to reduce/eliminate the time spent waiting on others to finish using
 This is a two-tier application, with a thick client running both a simple UI as well as a database to track user data and equipment availbility.
 
 - The frontend will be done in TypeScript and using React.JS. 
+- Backend is TBD.
 - The database is TBD.
 - User authentication will be done through Auth0.
 
