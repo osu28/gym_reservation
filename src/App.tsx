@@ -1,26 +1,27 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
-import Menu from "./components/Menu"
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Welcome from './pages/welcome';
 import "@fontsource/baloo-thambi-2"
 
+
 function App() {
-  useEffect(() => {
-    document.title = "Gym Reservation App"
-  }, [])
+  
   return (
     <div className="App">
       <header className="App-header">
         <div className = "container">
           <br></br>
           <br></br>
-          <img src={require("./images/dumbell_icon.png")} className="App-logo" alt="logo" />
-          <h1>Gym Reservation App</h1>
-          <Menu/>
-          {/* <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p> */}
-
+          <Welcome/>
         </div>
+       
+        {/* <BrowserRouter>
+          <Routes>
+            <Route path='/welcome' element={Welcome}/>
+          </Routes>
+        </BrowserRouter> */}
+
         <br></br>
         <a
             className="App-link"
