@@ -1,7 +1,8 @@
 import React from 'react';
-import Menu from "../components/Menu"
+import { useState } from 'react'
 
-const Split_Select: React.FC = (): JSX.Element => {
+function Split_Select() {
+    const [count, setCount] = useState(0)
     return (
         <div className='App'>
             <h1>Select Your Split</h1>
@@ -11,6 +12,13 @@ const Split_Select: React.FC = (): JSX.Element => {
                 <button className="button-19">Legs</button>
                 <br></br>
                 <button className="button-19">Chest</button>
+                <br></br>
+                <button className="button-19">Other</button>
+                <br></br>
+                <button className="button-19">Other</button>
+                <br></br>
+                <button className="button-19">Other</button>
+                
             </div>
         </div>
     );

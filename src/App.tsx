@@ -23,7 +23,7 @@ function App() {
         <div className = "container">
           <br></br>
           {page}
-          <br></br>
+
           <p>state: {count}</p>
           <div className='nav-buttons'>
             <button className="button-19" onClick={() => setCount(count - 1)}>
@@ -33,9 +33,6 @@ function App() {
               Next
             </button>
           </div>
-          
-          <br></br>
-
         </div>
         
         <a
