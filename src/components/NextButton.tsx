@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NextButton = (props: { addTrip: React.MouseEventHandler<HTMLButtonElement> | undefined }) => {
-  return <button onClick={props.addTrip}>Add a trip</button>
+  return <button onClick={props.addTrip}>Next</button>
 }
 
-export default NextButton
+export default NextButton;
