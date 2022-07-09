@@ -23,16 +23,19 @@ function App() {
         <div className = "container">
           <br></br>
           {page}
-          <button onClick={() => setCount(count - 1)}>
-            Back
-          </button>
-          <button onClick={() => setCount(count + 1)}>
-            Next
-          </button>
-          
+          <br></br>
           <p>state: {count}</p>
+          <div className='nav-buttons'>
+            <button className="button-19" onClick={() => setCount(count - 1)}>
+              Back
+            </button>
+            <button className="button-19" onClick={() => setCount(count + 1)}>
+              Next
+            </button>
+          </div>
+          
           <br></br>
-          <br></br>
+
         </div>
         
         <a
