@@ -23,6 +23,9 @@ This is a two-tier application, with a thick client running both a simple UI as 
 ## User Interface
 ***Designed by Amelia Reeves***
 
+Start UI
+![Start Page](./src/images/start_screen1.png)
+
 Login UI
 ![Login Page](./src/images/login_screen1.png)
 
