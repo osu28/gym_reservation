@@ -1,5 +1,5 @@
 # Gym Reservation App 💪
-***Oscar Su, Amelia Reeves, Nathan Ma***
+***Oscar Su, Amelia Reeves, and Nathan Ma***
 
 Possible name: Pump Program
 
