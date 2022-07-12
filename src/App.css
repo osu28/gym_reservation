@@ -13,6 +13,12 @@
   }
 }
 
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #EEEBC2;
+
+}
+
 .App-header {
   /* background-color: #282c34; */
   background-image: url("./images/blue_camo.jpeg");
@@ -26,7 +32,7 @@
   font-weight: 800;
   line-height: 100%;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EEEBC2;
   
 }
 
