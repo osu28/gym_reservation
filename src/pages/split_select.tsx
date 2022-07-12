@@ -13,7 +13,7 @@ function Split_Select() {
                 <br></br>
                 <button className="button-19">Chest</button>
                 <br></br>
-                <button className="button-19">Other</button>
+                <button className="button-19">Back</button>
                 <br></br>
                 <button className="button-19">Other</button>
                 <br></br>
