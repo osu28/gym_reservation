@@ -17,7 +17,7 @@ function App() {
     page = <Welcome/>
   } else if (pageNum === 1) {
     page = <Login/>
-  } else if (pageNum === 1) {
+  } else if (pageNum === 2) {
     page = <Split_Select/>
   }
   return (
