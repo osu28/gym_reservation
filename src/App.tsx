@@ -10,11 +10,11 @@ import Split_Select from './pages/split_select';
 
 function App() {
   // count is the name of the state and setCount changes the state
-  const [count, setCount] = useState(0)
+  const [pageNum, setCount] = useState(0)
   var page;
-  if (count === 0) {
+  if (pageNum === 0) {
     page = <Welcome/>
-  } else if (count === 1) {
+  } else if (pageNum === 1) {
     page = <Split_Select/>
   }
   return (
@@ -24,12 +24,12 @@ function App() {
           <br></br>
           {page}
 
-          <p>state: {count}</p>
+          <p>state: {pageNum}</p>
           <div className='nav-buttons'>
-            <button className="button-19" onClick={() => setCount(count - 1)}>
+            <button className="button-19" onClick={() => setCount(pageNum - 1)}>
               Back
             </button>
-            <button className="button-19" onClick={() => setCount(count + 1)}>
+            <button className="button-19" onClick={() => setCount(pageNum + 1)}>
               Next
             </button>
           </div>
