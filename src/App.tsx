@@ -2,8 +2,9 @@ import React from 'react';
 import { useState } from 'react'
 import './App.css';
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Welcome from './pages/welcome';
 import "@fontsource/baloo-thambi-2"
+import Welcome from './pages/welcome';
+import Login from './pages/login';
 import NextButton from './components/NextButton';
 import Split_Select from './pages/split_select';
 
@@ -14,6 +15,8 @@ function App() {
   var page;
   if (pageNum === 0) {
     page = <Welcome/>
+  } else if (pageNum === 1) {
+    page = <Login/>
   } else if (pageNum === 1) {
     page = <Split_Select/>
   }
