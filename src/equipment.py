@@ -24,3 +24,20 @@ bench_press2 = {(Time(9, 00), Time(9, 30)): "Peter",
                 (Time(11, 30), Time(12, 00)): None,
                 (Time(12, 00), Time(12, 30)): "Jared",
                 (Time(12, 30), Time(13, 00)): None,}
+
+def book_equipment(equipment, time_slot, user):
+    filled = False
+    if equipment[time_slot] == None:
+        equipment[time_slot] = user
+        filled = True
+    else:
+        print("Equipment is already booked for this time slot.")
+        while filled == False:
+            if equipment[time_slot] == None:
+                equipment[time_slot] = user
+                filled = True
+            time_slot = nextAvailable(time_slot)
+
+def nextAvailable(time_slot):
+    #implement this function
+    return time_slot
