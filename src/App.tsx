@@ -15,6 +15,7 @@ function App() {
   var page;
   var back;
   var next;
+  var restart;
   if (pageNum === 0) {
     page = <Welcome/>
     next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Login</button>
@@ -26,6 +27,8 @@ function App() {
     page = <Split_Select/>
     back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>Back</button>
     next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Next</button>
+  } else {
+    restart = <button className="button-19" onClick={() => setCount(0)}>Restart</button>
   }
   return (
     <div className="App">
@@ -37,6 +40,7 @@ function App() {
           <div className='nav-buttons'>
             {back}
             {next}
+            {restart}
           </div>
         </div>
         
