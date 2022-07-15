@@ -13,12 +13,19 @@ function App() {
   // count is the name of the state and setCount changes the state
   const [pageNum, setCount] = useState(0)
   var page;
+  var back;
+  var next;
   if (pageNum === 0) {
     page = <Welcome/>
+    next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Login</button>
   } else if (pageNum === 1) {
     page = <Login/>
+    back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>Cancel</button>
+    next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Login</button>
   } else if (pageNum === 2) {
     page = <Split_Select/>
+    back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>Back</button>
+    next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Next</button>
   }
   return (
     <div className="App">
@@ -26,15 +33,10 @@ function App() {
         <div className = "container">
           <br></br>
           {page}
-
-          <p>state: {pageNum}</p>
+          {/* <p>state: {pageNum}</p> */}
           <div className='nav-buttons'>
-            <button className="button-19" onClick={() => setCount(pageNum - 1)}>
-              Back
-            </button>
-            <button className="button-19" onClick={() => setCount(pageNum + 1)}>
-              Next
-            </button>
+            {back}
+            {next}
           </div>
         </div>
         
