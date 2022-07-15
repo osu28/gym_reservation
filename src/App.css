@@ -1,10 +1,16 @@
 .App {
-  text-align: center;
+  position: relative;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.linkedin {
+  width: 40px;
+  height:40px;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +22,7 @@
 h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #EEEBC2;
-
+  font-size: 3em;
 }
 
 .App-header {
@@ -33,6 +39,7 @@ h1{
   line-height: 100%;
   font-size: calc(10px + 2vmin);
   color: #EEEBC2;
+  text-align: center;
   
 }
 

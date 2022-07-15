@@ -16,6 +16,13 @@ function App() {
   var back;
   var next;
   var restart;
+  var linkedin = <a
+                    className="App-link"
+                    href="https://www.linkedin.com/in/oscarsu28/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ><img src={require("./images/linkedin_icon.png")} className='linkedin'></img>
+                  </a>
   if (pageNum === 0) {
     page = <Welcome/>
     next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Login</button>
@@ -43,24 +50,10 @@ function App() {
             {restart}
           </div>
         </div>
-        
-        <a
-            className="App-link"
-            href="https://www.linkedin.com/in/oscarsu28/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-          <img src={require("./images/linkedin_icon.png")} style={{width:"40px",height:"40",}}>
-          </img>
-        </a>
       </header>
+      {linkedin}
     </div>
   );
 }
 
 export default App;
-
-// function showTable(): React.MouseEventHandler<HTMLButtonElement> | undefined {
-//   throw new Error('Function not implemented.');
-// }
-
