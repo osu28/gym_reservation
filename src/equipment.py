@@ -40,4 +40,16 @@ def book_equipment(equipment, time_slot, user):
 
 def nextAvailable(time_slot):
     #implement this function
+    start = time_slot[0]
+    end = time_slot[1]
+    if start.minute == 30:
+        start.minute = 0
+        start.hour += 1
+    else:
+        start.minute = 30
+    if end.minute == 30:
+        end.minute = 0
+        end.hour += 1
+    else:
+        end.minute = 30
     return time_slot
