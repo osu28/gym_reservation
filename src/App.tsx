@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css';
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "@fontsource/baloo-thambi-2"
@@ -10,6 +10,9 @@ import Split_Select from './pages/split_select';
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Pump Program"
+  }, [])
   // count is the name of the state and setCount changes the state
   const [pageNum, setCount] = useState(0)
   var page;
