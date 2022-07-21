@@ -5,7 +5,7 @@ function Split_Select() {
     const [count, setCount] = useState(0)
     return (
         <div className='App'>
-            <h1>Select Your Split</h1>
+            <h2>Select Your Split</h2>
             <div className='split_selector'>
                 <button className="button-19">Arms</button>
                 <br></br>

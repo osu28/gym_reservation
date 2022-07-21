@@ -7,10 +7,16 @@ function Login() {
             <p>Sign In</p>
             <form>
                 <label>
-                    Email:
-                    <input type="text" name="name" />
+                    Email: 
+                    <input type="text" name="email" />
                 </label>
-                <input type="submit" value="Submit" />
+                <br></br>
+                <br></br>
+                <label>
+                    Password: 
+                    <input type="text" name="password" />
+                </label>
+                <br></br>
             </form>
         </div>
     );
