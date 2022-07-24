@@ -33,6 +33,7 @@ function App() {
     back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>SignUp</button>
   } else if (pageNum === -1) {
     page = <Signup/>
+    next = <button className="button-19" onClick={() => setCount(0)}>Create Account</button>
   } else if (pageNum === 1) {
     page = <Login/>
     back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>Cancel</button>
