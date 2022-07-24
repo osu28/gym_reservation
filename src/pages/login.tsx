@@ -1,3 +1,4 @@
+import { TextField } from '@mui/material';
 import React from 'react';
 
 function Login() {
@@ -5,19 +6,29 @@ function Login() {
         <div className='App'>
             <h1>Pump Program</h1>
             <p>Sign In</p>
-            <form>
-                <label>
-                    Email: 
-                    <input type="text" name="email" />
-                </label>
-                <br></br>
-                <br></br>
-                <label>
-                    Password: 
-                    <input type="text" name="password" />
-                </label>
-                <br></br>
-            </form>
+            <TextField 
+                sx={{
+                    width: 400,
+                    input: { color: 'white' },
+                }}
+                fullWidth id="email" 
+                label="Email" 
+                variant="filled" 
+                focused 
+            />
+            <br></br>
+            <br></br>
+            <br></br>
+            <TextField 
+                sx={{
+                    width: 400,
+                    input: { color: 'white' },
+                }}
+                fullWidth id="password" 
+                label="Password" 
+                variant="filled" 
+                focused 
+            />
         </div>
     );
 };

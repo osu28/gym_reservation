@@ -7,6 +7,7 @@ import Welcome from './pages/welcome';
 import Login from './pages/login';
 import NextButton from './components/NextButton';
 import Split_Select from './pages/split_select';
+import Signup from './pages/signup';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
   if (pageNum === 0) {
     page = <Welcome/>
     next = <button className="button-19" onClick={() => setCount(pageNum + 1)}>Login</button>
+    back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>SignUp</button>
+  } else if (pageNum === -1) {
+    page = <Signup/>
   } else if (pageNum === 1) {
     page = <Login/>
     back = <button className="button-19" onClick={() => setCount(pageNum - 1)}>Cancel</button>
