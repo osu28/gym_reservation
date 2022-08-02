@@ -24,6 +24,7 @@ function Login() {
                     width: 400,
                     input: { color: 'white' },
                 }}
+                type="password"
                 fullWidth id="password" 
                 label="Password" 
                 variant="filled" 

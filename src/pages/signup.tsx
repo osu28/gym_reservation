@@ -25,6 +25,7 @@ function Signup() {
                     input: { color: 'white' },
                     color: 'white'
                 }}
+                type="password"
                 fullWidth id="password" 
                 label="Password" 
                 variant="filled" 
@@ -37,6 +38,7 @@ function Signup() {
                     width: 400,
                     input: { color: 'white' },
                 }}
+                type="password"
                 fullWidth id="confirm_password" 
                 label="Confirm Password" 
                 variant="filled" 
